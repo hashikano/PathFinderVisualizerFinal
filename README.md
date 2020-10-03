@@ -14,11 +14,11 @@ You can see the project here *link*
 
 * **Greedy Best-first Search** : Best-first search is a search algorithm which explores a graph by expanding the most promising node chosen according to a specified rule. **Does not guarantee the shortest-path**.
 
-* **Swarm Algorithm** : A mixture of Dijkstra's Algorithm and A*, **Does not guarantee the shortest-path**.
+* **Swarm Algorithm** : A mixture of Dijkstra's Algorithm and A*. **Does not guarantee the shortest-path**.
 
-* **Convergent Swarm Algorithm** : The faster, more heuristic-heavy version of Swarm, **Does not guarantee the shortest-path**.
+* **Convergent Swarm Algorithm** : The faster, more heuristic-heavy version of Swarm. **Does not guarantee the shortest-path**.
 
-* **Bidirectional Swarm Algorithm** : Swarm from both sides,**Does not guarantee the shortest path**.
+* **Bidirectional Swarm Algorithm** : Swarm from both sides. **Does not guarantee the shortest path**.
 
 * **Jump Point Search** : Jump Point Search (JPS) is an optimization to the A* search algorithm for uniform-cost grids. It reduces symmetries in the search procedure by means of graph pruning.
 
@@ -36,5 +36,3 @@ You can see the project here *link*
 * **Recursive Division (Horizontal Skew)**
 * **Simple Spiral**
 * **Simple Stair Pattern**
-
-## Algorithms In-Depth
