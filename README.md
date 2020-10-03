@@ -30,7 +30,11 @@ You can see the project here *link*
 
 ## Different Mazes
 
-* **Random**
+* **Basic Random Maze**
 * **Recursive Division**
+* **Recursive Division (Vertical Skew)**
+* **Recursive Division (Horizontal Skew)**
+* **Simple Spiral**
+* **Simple Stair Pattern**
 
 ## Algorithms In-Depth
