@@ -1,0 +1,24 @@
+{
+  "name": "PathFinderVisualizerFinal",
+  "version": "1.0.0",
+  "description": "I am creating this visualizer as my **2nd year** college project.\r It has a simple and elegant design, nothing fancy, I hope you like it :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashikano/PathFinderVisualizerFinal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashikano/PathFinderVisualizerFinal/issues"
+  },
+  "homepage": "https://github.com/hashikano/PathFinderVisualizerFinal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
