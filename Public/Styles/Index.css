@@ -1,3 +1,90 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita+Swashed:wght@300;400&display=swap');
 .btn {
    margin-right: 1rem;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* DropDown Background color */
+
+.dropdown-item:focus, .dropdown-item:hover {
+   color: #fff !important;
+   background-color: #1a1c20 !important;
+   border-color: #fff !important;
+}
+
+.navbar-brand {
+   font-family: 'Sansita Swashed', cursive;
+}
+
+.nav-item {
+   margin-top: 0.27rem;
+}
+/* Legends */
+
+.key {
+   background-color: white;
+   border: 1px solid #79d9ce;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.searching {
+   background-color: #1cd4b5;
+   border-color: #1cd4b5;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.visited {
+   background-color: #e89440;
+   border-color: #e89440;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.success {
+   background-color: #ffee31;
+   border-color: #ffee31;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.start {
+   background-color: green;
+   border-color: green;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.end {
+   background-color: red;
+   border-color: red;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
+}
+
+.wall {
+   background-color: #262b28;
+   border-color: #262b28;
+   height: 1.67rem;
+   margin-right: 0.66rem;
+   transition: background-color 0.1s ease-in-out;
+   width: 1.67rem;
 }

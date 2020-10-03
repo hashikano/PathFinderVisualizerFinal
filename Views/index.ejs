@@ -1,8 +1,8 @@
 <%- include("header"); -%>
 
 <!-- Bootstrap Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-   <a class="navbar-brand" href="#">Path Finder</a>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1c20;">
+   <a class="navbar-brand" href="#" style="color: #f6f6f6;">Path Finder</a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,7 +12,7 @@
       <ul class="navbar-nav mr-auto">
          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+               aria-haspopup="true" aria-expanded="false" style="color: #eeeeee;">
                Algorithm
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -30,10 +30,10 @@
          </li>
          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+               aria-haspopup="true" aria-expanded="false" style="color: #eeeeee;">
                Mazes
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
                <a class="dropdown-item" href="#">Basic Random Maze</a>
                <a class="dropdown-item" href="#">Recursive Division</a>
                <a class="dropdown-item" href="#">Recursive Division (Vertical Skew)</a>
@@ -45,10 +45,10 @@
          </li>
          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+               aria-haspopup="true" aria-expanded="false" style="color: #eeeeee;">
                Speed
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
                <a class="dropdown-item" href="#">Slow</a>
                <a class="dropdown-item" href="#">Default</a>
                <a class="dropdown-item" href="#">Fast</a>
@@ -56,10 +56,41 @@
          </li>
       </ul>
    </div>
+
    <!-- Right Buttons-->
    <button type="button" class="btn btn-outline-success">Start</button>
-   <button type="button" class="btn btn-outline-danger">Clear Board</button>
+   <button type="button" class="btn btn-outline-danger">Stop</button>
+   <button type="button" class="btn btn-outline-light">Clear Board</button>
+
 </nav>
 
+<!-- Legends -->
+<div class="d-flex flex-row flex-wrap m-2 justify-content-around">
+   <div class="d-flex p-2">
+      <div class="key wall"></div>
+      <div> Wall</div>
+   </div>
+   <div class="d-flex p-2">
+      <div class="key start"></div>
+      <div>Start</div>
+   </div>
+   <div class="d-flex p-2">
+      <div class="key end"></div>
+      <div>Target</div>
+   </div>
+   <div class="d-flex p-2">
+      <div class="key searching"></div>
+      <div class="key visited"></div>
+      <div>Visited</div>
+   </div>
+   <div class="d-flex p-2">
+      <div class="key success"></div>
+      <div>Shortest-Path</div>
+   </div>
+   <div class="d-flex p-2">
+      <div class="key"></div>
+      <div>Unvisited</div>
+   </div>
+</div>
 
 <%- include("footer"); -%>
