@@ -9,6 +9,19 @@ body {
    font-family: 'Open Sans', sans-serif;
 }
 
+/* Grid */
+
+#tableContainer {
+   margin-top: 1.21rem;
+   margin-left: 2.5rem;
+}
+
+td {
+   border: 1px solid #99f3bd;
+   width: 1.471rem;
+   height: 1.471rem;
+}
+
 /* DropDown Background color */
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -24,7 +37,23 @@ body {
 .nav-item {
    margin-top: 0.27rem;
 }
+
 /* Legends */
+
+.legends {
+   margin: 0.5rem;
+   margin-left: 2rem;
+}
+
+.legends-text {
+   margin-top: 0.125rem;
+}
+
+.p-2 {
+   padding: 0.5rem !important;
+   padding-right: 5.85rem !important;
+   padding-bottom: 0.25rem !important;
+}
 
 .key {
    background-color: white;
@@ -63,21 +92,32 @@ body {
 }
 
 .start {
-   background-color: green;
+   background-image: url(../Assets/triangletwo-right.svg);
+   border: 1px solid #fff;
+   height: 1.5rem;
+   margin-right: 0;
+   margin-top: 0.1rem;
+   /* background-color: green;
    border-color: green;
    height: 1.67rem;
    margin-right: 0.66rem;
    transition: background-color 0.1s ease-in-out;
-   width: 1.67rem;
+   width: 1.67rem; */
 }
 
 .end {
-   background-color: red;
+   background-image: url(../Assets/circle.svg);
+   border: 1px solid #fff;
+   height: 1.5rem;
+   width: 1.5rem;
+   margin-right: 0.35rem;
+   margin-top: 0.1rem;
+   /* background-color: red;
    border-color: red;
    height: 1.67rem;
    margin-right: 0.66rem;
    transition: background-color 0.1s ease-in-out;
-   width: 1.67rem;
+   width: 1.67rem; */
 }
 
 .wall {
