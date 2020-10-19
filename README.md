@@ -40,4 +40,4 @@ You can see the project here *link*
 
 
 <br>
-(https://github-readme-stats.vercel.app/api?username=hashikano)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=hashikano&show_icons=true&line_height=45&include_all_commits=true" /> 
