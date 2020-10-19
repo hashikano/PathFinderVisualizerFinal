@@ -36,3 +36,8 @@ You can see the project here *link*
 * **Recursive Division (Horizontal Skew)**
 * **Simple Spiral**
 * **Simple Stair Pattern**
+
+
+
+<br>
+(https://github-readme-stats.vercel.app/api?username=hashikano)](https://github.com/anuraghazra/github-readme-stats)
