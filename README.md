@@ -40,6 +40,6 @@ You can see the project here *link*
 
 
 <br>
-<img src="https://github-readme-stats.vercel.app/api?username=hashikano&show_icons=true&line_height=45&include_all_commits=true" /> 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=ketan-mehta1304" alt="visitor badge"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hashikano&layout=compact" />
+<img src="https://github-readme-stats.vercel.app/api?username=vsoni101&show_icons=true&line_height=45&include_all_commits=true" /> 
+<img src="https://visitor-badge.laobi.icu/badge?page_id=vsoni101" alt="visitor badge"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsoni101&layout=compact" />
